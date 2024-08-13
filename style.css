@@ -1,0 +1,232 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  
+      
+    
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(images/netflix\ cover.jpg);
+
+    height: 70vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: (1200px, 100vw);
+
+
+}
+
+.box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+   
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img{
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.hero{
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    
+        font-family: "Martel Sans", sans-serif;
+      
+        font-style: normal;
+   gap: 23px;
+   padding:0 23px;
+      
+}
+.hero> :first-child {
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation{
+    height: 5px;
+    background-color: rgb(56, 56, 56);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-red-btn{
+    background-color: red;
+    padding: 3px 24px ;
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.main input{
+    padding: 7px 101px 8px 14px ;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+      
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.btn-red-sm{
+    background-color: red;
+    color: white;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 30vw;
+    margin-top: 1vw;
+    position: relative;
+    z-index: 10;
+
+}
+
+.secimg video{
+    position: absolute;
+    width: 30vw;
+    top: 50px;
+    right: 0px;
+    left: 0px;
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+
+}
+.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first > div :nth-child(2){
+    font-size: 18px;
+    font-weight: 100;
+
+}
+
+.faq h2{
+    text-align: center;
+    font-size: 48px;
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 34px;
+     
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(42, 42, 42);
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+    
+     
+}
+.faqbox:hover{
+
+    background-color: red;
+}
+
+footer{
+    color: white;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+}
+
+.footeritem{
+    display: flex;
+    flex-direction: column;
+}
+
+footer span{
+    margin: 2px 30vw ;
+    text-align: center;
+}
